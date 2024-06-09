@@ -1,7 +1,7 @@
 const colors = require("colors");
 const FileHandler = require("./src/fileHandler.js");
 const { profileFactory } = require("./src/generate-profile.js");
-const { da } = require("@faker-js/faker");
+
 
 function main() {
   const args = process.argv.slice(2);
